@@ -1,0 +1,6 @@
+<%# 리스트 4-48 view/discovery.html.erb %>
+
+<%= auto_discovery_link_tag(:rss,
+  { controller: :books, action: :index, id: :rails },
+  title: '서버사이드 배움터 WINGS'
+) %>

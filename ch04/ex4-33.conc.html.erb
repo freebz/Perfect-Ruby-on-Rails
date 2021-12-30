@@ -1,0 +1,7 @@
+<%# 리스트 4-33 view/conc.html.erb %>
+
+<td><%= book.price %>원
+  <% if book.price >= 30000 %>
+    <%= image_tag 'expensive.gif' %>
+  <% end %>
+</td>

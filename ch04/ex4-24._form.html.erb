@@ -1,0 +1,9 @@
+<%# 리스트 4-24 books/_form.html.erb %>
+
+<%= form_with(model: book) do |form| %>
+  
+  <div class="actions">
+    <%= form.submit '저장', data: { confirm: '저장해도 괜찮습니까?', disable_with: '처리 중...' } %>
+  </div>
+  
+<% end %>

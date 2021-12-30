@@ -1,0 +1,8 @@
+<%# 리스트 4-44 view/mailto.html.erb %>
+
+<%= mail_to 'CQW15204@nifty.com' %>
+
+<%= mail_to 'CQW15204@nifty.com', '질문이 있다면 이쪽으로' %>
+
+<%= mail_to 'CQW15204@nifty.com', nil,
+  subject: '질문', cc: 'testA@test.com' %>

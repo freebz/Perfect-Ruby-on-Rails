@@ -1,0 +1,8 @@
+<%# 리스트 4-22 books/_form.html.erb %>
+
+<%= form_with(model: book) do |form| %>
+  <div class="field">
+    <%= form.label :isbn, 'ISBN 코드' %><br />
+    <%= form.text_field :isbn %>
+  </div>
+<% end %>

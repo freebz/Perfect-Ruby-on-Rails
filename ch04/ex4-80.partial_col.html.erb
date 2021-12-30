@@ -1,0 +1,5 @@
+<%# 리스트 4-80 view/partial_col.html.erb %>
+
+<div id="list">
+  <%= render partial: 'books/book', collection: @books, locals: { type: :details } %>
+</div>

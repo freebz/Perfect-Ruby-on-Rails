@@ -1,0 +1,10 @@
+<%# 리스트 4-54 view/content_tag.html.erb %>
+
+<%= content_tag :p, '오늘도 좋은 날씨', id: :exam, class: :body %>
+
+<%= content_tag :p, id: :exam, class: :body do %>
+  오늘도 좋은 날씨
+<% end %>
+
+
+<%= content_tag :string, content_tag(:p, '오늘도 좋은 날씨'), id: :result %>

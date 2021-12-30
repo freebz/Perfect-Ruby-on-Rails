@@ -1,0 +1,4 @@
+<%# 리스트 4-16 view/col_select2.html.erb %>
+
+<%= select_tag('publish', options_from_collection_for_select(
+  @books, :publish, :publish, '제이펍')) %>
