@@ -1,0 +1,12 @@
+<%# 리스트 4-5 view/form_for.html.erb %>
+
+<%= form_for(@book) do |f| %>
+  <div class="field">
+    <%= f.label :isbn %><br />
+    <%= f.text_field :isbn, size: 25 %>
+  </div>
+  ...생략...
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

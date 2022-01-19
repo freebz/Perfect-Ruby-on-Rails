@@ -1,0 +1,22 @@
+# 리스트 5-118 users.yml
+
+arint:
+  id: 1
+  username: arint
+  password: 2cf00a11121ad260ed32b290f9aefa01279bd5a2
+  salt: 5f90a188468f64998c5a
+  email: testA@test.com
+  dm: true
+  roles: admin,manager
+  reviews_count: 2
+
+hasat:
+  id: 2
+  username: hasat
+  password: 9be7f45387af4f7bbe720d16a6f334503b5c4f81
+  salt: 5f90a188468f64998c5b
+  email: testD@test.com
+  dm: false
+  roles: admin
+  reviews_count: 2
+  # ...생략...

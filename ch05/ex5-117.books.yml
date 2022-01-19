@@ -1,0 +1,20 @@
+# 리스트 5-117 books.yml
+
+modernjava:
+  id: 1
+  isbn: 978-4-7741-5878-5
+  title: 안드로이드 개발자를 위한 자바
+  price: 33600
+  publish: 제이펍
+  published: 2013-08-20
+  cd: false
+
+jslib:
+  id: 2
+  isbn: 978-4-7741-5611-8
+  title: 자바스크립트 라이브러리 실전 활용
+  price: 27090
+  publish: 제이펍
+  published: 2013-03-19
+  cd: false
+  # ...생략...

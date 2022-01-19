@@ -1,0 +1,10 @@
+# 리스트 5-117 books.yml
+
+<% 0.upto(9) do |n| %>
+book<%= n %>:
+  isbn: 978-4-7741-5878-<%= n %>
+  title: 도서 이름<%= n %>
+  price: <%= 1000 + n %>
+  publish: 출판사<%= n %>
+  published: 2013-12-31
+<% end %>
