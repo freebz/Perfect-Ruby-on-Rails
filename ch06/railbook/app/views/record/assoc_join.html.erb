@@ -1,0 +1,5 @@
+<%# 리스트 5-100 record/assoc_join.html.erb %>
+
+<% @books.each do |b| %>
+  <p><%= b.body %>(<%= b.title %>: <%= b.name %>)</p>
+<% end %>

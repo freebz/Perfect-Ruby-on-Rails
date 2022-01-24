@@ -1,0 +1,21 @@
+<!-- 리스트 6-53 입력 양식에 포함된 토큰 -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Railbook</title>
+  ...생략...
+  <meta name="csrf-param" content="authenticity_token" />
+  <meta name="csrf-token"
+    content="L_Ve_K-A8xQNamv7A1NS92wrHqL6YDm7sx3Wqi8KIAjCqgXxCiXXx8PMJCnLY9t4E-kvi8QHdONZQrv7boS8ZA" />
+</head>
+
+<body>
+  ...생략...
+  <form action="/books" accept-charset="UTF-8" method="post">
+    <div style="margin:0;padding:0;display:inline">
+      <input name="utf8" type="hidden" value="&#x2713;" />
+      <input type="hidden" name="authenticity_token"
+        value="yTB7yAYVhkQs-Ar55eJRinHRx8VUcvnaTBKaFHx99khLlMJF4o3sWJ29rdPrGEKaKODe3dz72yhUiuaWivSfmQ" />
+    </div>
