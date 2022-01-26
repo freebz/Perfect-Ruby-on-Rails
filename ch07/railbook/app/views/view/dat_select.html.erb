@@ -1,0 +1,5 @@
+<%# 리스트 4-19 view/dat_select.html.erb %>
+
+<%= form_for(@book) do |f| %>
+  <%= f.date_select :published, use_month_numbers: true %>
+<% end %>

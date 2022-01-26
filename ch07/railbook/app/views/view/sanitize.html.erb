@@ -1,0 +1,9 @@
+<%# 리스트 4-35 view/sanitize.html.erb %>
+
+<% msg = <<EOL
+<p style="color:RED">Rails와 관련된<br />질문이 있습니다.</p>
+<strong>응급</strong>
+<a href="JavaScript:alert('NG')">이쪽으로 응답해주세요.</a>
+EOL
+%>
+<%= sanitize msg, tags: %w(br p a), attributes: %w(id class href) %>

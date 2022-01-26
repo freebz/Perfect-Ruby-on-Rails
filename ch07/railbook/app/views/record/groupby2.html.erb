@@ -1,0 +1,13 @@
+<%# 리스트 5-33 record/groupby2.html.erb %>
+
+<table border="1">
+<tr>
+  <th>출판사</th><th>가격</th>
+</tr>
+<% @books.each do |key, value| %>
+<tr>
+  <td><%= key %></td>
+  <td><%= value %></td>
+</tr>
+<% end %>
+</table>

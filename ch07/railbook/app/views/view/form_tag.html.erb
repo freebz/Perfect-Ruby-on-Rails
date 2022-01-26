@@ -1,0 +1,13 @@
+<%# 리스트 4-3 view/form_tag.html.erb %>
+
+<%= form_tag(action: :create) do %>
+  <div class="field">
+    <%= label :book, :isbn %><br />
+    <%= text_field :book, :isbn, size: 25 %>
+  </div>
+  <div class="field">
+    <%= label :book, :title %><br />
+    <%= text_field :book, :title, size: 25 %>
+  </div>
+  ...생략...
+<% end %>
