@@ -1,0 +1,8 @@
+<%# 리스트 5-102 record/assoc_includes.html.erb %>
+
+<ul>
+<% @books.each do |b| %>
+  <li><%= b.title %>
+  (<% b.authors.each do |a| %><%= a.name %> <% end %>)</li>
+<% end %>
+</ul>
