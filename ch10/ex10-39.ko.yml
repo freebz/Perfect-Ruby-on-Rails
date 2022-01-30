@@ -1,0 +1,9 @@
+# 리스트 10-39 ko.yml
+
+ko:
+  attributes:
+    isbn: "ISBN 코드"
+    title: "이름"
+    price: "가격"
+    publish: "출판사"
+    published: "출간일"

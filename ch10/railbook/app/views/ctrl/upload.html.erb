@@ -1,0 +1,7 @@
+<%# 리스트 6-9 ctrl/upload.html.erb %>
+
+<%= form_tag({ action: :upload_process }, multipart: true) do %>
+  <label>파일 지정:
+    <%= file_field_tag :upfile, size: 50 %></label>
+  <%= submit_tag '업로드' %>
+<% end %>

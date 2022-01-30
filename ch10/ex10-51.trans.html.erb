@@ -1,0 +1,15 @@
+<%# 리스트 10-51 extra/trans.html.erb %>
+
+<%= t 'general.greeting.morning' %><br />
+<%= t 'general.greeting.hello', name: 'arint' %><br />
+<%= l Time.now, format: :long %><br />
+<%= t :morning, scope: 'general.greeting' %>
+<%= t :morning, scope: [:general, :greeting] %>
+<% k = [:general, :greeting] %>
+<%= t :morning, scope: k %><br />
+<%= t 'general.greeting.night', default: 'Good Night' %>
+<%= t :night, default: [:default, 'Hello'],
+scope: [:general, :greeting] %>
+<%= t 'general.greeting.morning', locale: :de %><br />
+<%= t 'result', count: 1 %>
+<%= t 'result', count: 2 %>

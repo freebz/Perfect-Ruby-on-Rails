@@ -1,0 +1,5 @@
+<%# 리스트 10-48 extra/trans.html.erb %>
+
+<%= t 'general.greeting.night', default: 'Good Night' %>
+<%= t :night, default: [:default, 'Hello'],
+scope: [:general, :greeting] %>

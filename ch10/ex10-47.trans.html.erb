@@ -1,0 +1,6 @@
+<%# 리스트 10-47 extra/trans.html.erb %>
+
+<%= t :morning, scope: 'general.greeting' %>
+<%= t :morning, scope: [:general, :greeting] %>
+<% k = [:general, :greeting] %>
+<%= t :morning, scope: k %><br />

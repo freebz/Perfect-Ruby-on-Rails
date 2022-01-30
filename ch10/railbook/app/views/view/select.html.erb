@@ -1,0 +1,17 @@
+<%# 리스트 4-9 view/select.html.erb %>
+
+<%= form_for(@book) do |f| %>
+
+  <%= f.select :publish, ['제이펍', '한빛미디어', '한빛아카데미'],
+    { include_black: '선택해주세요' }, class: 'pub' %>
+
+  <%= f.select :publish,
+    { '제이펍' => 1, '한빛미디어' => 2, '한빛아카데미' => 3 } %>
+  
+  <%= f.select :publish,
+    [['제이펍', 1], ['한빛미디어', 2], ['한빛아카데미', 3]] %>
+  
+  <%= f.select :publish, ['제이펍', '한빛미디어', '한빛아카데미'],
+    { include_black: '선택해주세요' }, multiple: true %>
+
+<% end %>

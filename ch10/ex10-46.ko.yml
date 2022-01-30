@@ -1,0 +1,7 @@
+# 리스트 10-46 ko.yml
+
+ko:
+  helpers:
+    submit:
+      create: "등록"
+      update: "업데이트"

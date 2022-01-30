@@ -1,0 +1,10 @@
+# 리스트 10-57 database.yml
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: railbook
+  pool: 5
+  username: root
+  password: 12345
+  socket: /var/lib/mysql/mysql.sock

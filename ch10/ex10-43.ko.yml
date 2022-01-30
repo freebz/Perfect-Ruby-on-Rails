@@ -1,0 +1,10 @@
+# 리스트 10-43 ko.yml
+
+ko:
+  time:
+    am: 오전
+    formats:
+      default: ! '%Y/%m/%d %H:%M:%S'
+      long: ! '%Y년 %m월 %d일 (%a) %H시 %M분 %S초 %z'
+      short: ! '%y/%m/%d %H:%M'
+    pm: 오후

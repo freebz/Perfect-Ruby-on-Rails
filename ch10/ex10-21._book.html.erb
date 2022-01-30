@@ -1,0 +1,10 @@
+<%# 리스트 10-21 books/_book.html.erb %>
+
+<% cache(book) %>
+<img src="http://www.wings.msn.to/books/<%= book.isbn%>/<%= book.isbn%>_logo.jpg" width="80" height="30" /><br />
+<%= book.title %><br />
+<%= book.publish %><br />
+가격 <%= book.price %>원<br />
+ISBN <%= book.isbn %><br />
+출간일: <%= book.published %>
+<% end %>

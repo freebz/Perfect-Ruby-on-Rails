@@ -1,0 +1,11 @@
+# 리스트 10-50 en.yml
+
+en:
+  general:
+    greeting:
+      morning: 'Good Morning.'
+      hello: 'Hello, %{name}!'
+
+  result:
+    one: "only one"
+    other: "%{count} rows"

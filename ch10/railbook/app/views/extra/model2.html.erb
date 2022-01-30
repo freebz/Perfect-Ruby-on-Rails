@@ -1,0 +1,9 @@
+<%# 리스트 10-25 extra/model2.html.erb %>
+
+<% cache(books_cache_key) do %>
+  <% Book.all.each do |book| %>
+    <p>
+      <%= render book %>
+    </p>
+  <% end %>
+<% end %>

@@ -1,0 +1,53 @@
+# 리스트 10-46 ko.yml
+
+ko:
+  general:
+    greeting:
+      morning: '안녕하세요.'
+      hello: '안녕하세요. %{name} 님!'
+  
+  ctrl:
+    trans:
+      greeting: "Hello World..!"
+
+  attributes:
+    isbn: "ISBN 코드"
+    title: "이름"
+    price: "가격"
+    publish: "출판사"
+    published: "출간일"
+
+  errors: &errors
+    format: ! '%{attribute}%{message}'
+    messages:
+      accepted: 을 동의해주세요.
+      blank: 을 입력해주세요.
+      greater_than: 은 %{count}보다 큰 값을 입력해주세요.
+      invalid: 은 유효하지 않은 값입니다.
+      less_than: 은 %{count}보다 작은 값을 입력해주세요.
+      too_long: 은 %{count} 문자보다 적게 입력해주세요.
+      too_short: 은 %{count} 문자보다 많게 입력해주세요.
+
+  time:
+    am: 오전
+    formats:
+      default: ! '%Y/%m/%d %H:%M:%S'
+      long: ! '%Y년 %m월 %d일 (%a) %H시 %M분 %S초 %z'
+      short: ! '%y/%m/%d %H:%M'
+    pm: 오후
+
+  number:
+    currency:
+      format:
+        delimiter: ! ','
+        format: ! '%n%u'
+        precision: 3
+        separator: .
+        significant: false
+        strip_insignificant_zeros: false
+        unit: 원
+
+  helpers:
+    submit:
+      create: "등록"
+      update: "업데이트"

@@ -1,0 +1,13 @@
+# 리스트 10-42 ko.yml
+
+ko:
+  errors: &errors
+    format: ! '%{attribute}%{message}'
+    messages:
+      accepted: 을 동의해주세요.
+      blank: 을 입력해주세요.
+      greater_than: 은 %{count}보다 큰 값을 입력해주세요.
+      invalid: 은 유효하지 않은 값입니다.
+      less_than: 은 %{count}보다 작은 값을 입력해주세요.
+      too_long: 은 %{count} 문자보다 적게 입력해주세요.
+      too_short: 은 %{count} 문자보다 많게 입력해주세요.

@@ -1,0 +1,9 @@
+<%# 리스트 5-75 record/hasmany.html.erb %>
+
+<h2>"<%= @book.title %>"의 리뷰</h2>
+<hr />
+<ul>
+<% @book.reviews.each do |review| %>
+<li><%= review.body %>(<%= review.updated_at %>)</li>
+<% end %>
+</ul>

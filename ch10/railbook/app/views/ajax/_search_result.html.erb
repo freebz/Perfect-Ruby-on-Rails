@@ -1,0 +1,6 @@
+<%# 리스트 9-14 ajax/_search_result.html.erb %>
+
+<% @books.each do |book| %>
+  <li><%= link_to book.title,
+    'http://www.wings.msn.to/index.php/-/A-03/' + book.isbn %></li>
+<% end %>
