@@ -1,0 +1,5 @@
+<%# 리스트 4-17 view/group_select2.html.erb %>
+
+<%= select_tag 'book',
+  option_groups_from_collection_for_select(
+    @authors, :books, :name, :id, :title, '1') %>

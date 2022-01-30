@@ -1,0 +1,7 @@
+<%# 리스트 9-18 ajax/search.html.erb %>
+
+<%= form_tag({ action: 'result' }, remote: true) do %>
+  <%# ...생략... %>
+  <!-- 진행 상태 글자를 표시하기 위한 영역 -->
+  <span id="progress"></span>
+<% end %>
